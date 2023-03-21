@@ -14,8 +14,10 @@
 
 	$: if (query.length) {
 		debounce(() => {
-			data = wiki.search(query, { limit: 20 });
+			data = wiki.search(query, { limit: 100 });
 		}, 200);
+	} else {
+		data = null;
 	}
 </script>
 
