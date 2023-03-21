@@ -1,4 +1,4 @@
-<script lang="ts">
+<!-- <script lang="ts">
 	import { page } from '$app/stores';
 	import { wiki } from '$lib/wiki';
 
@@ -13,4 +13,4 @@
 	{#if pageData}
 		<p class="whitespace-pre-wrap">{@html pageData}</p>
 	{/if}
-{/await}
+{/await} -->
